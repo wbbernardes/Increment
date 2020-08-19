@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B159069424ED6CE8001052EF /* IncrementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159069324ED6CE8001052EF /* IncrementApp.swift */; };
-		B159069624ED6CE8001052EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159069524ED6CE8001052EF /* ContentView.swift */; };
+		B159069624ED6CE8001052EF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159069524ED6CE8001052EF /* LandingView.swift */; };
 		B159069824ED6CEA001052EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B159069724ED6CEA001052EF /* Assets.xcassets */; };
 		B159069B24ED6CEA001052EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B159069A24ED6CEA001052EF /* Preview Assets.xcassets */; };
 		B15906A624ED6CEB001052EF /* IncrementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15906A524ED6CEB001052EF /* IncrementTests.swift */; };
 		B15906B124ED6CEB001052EF /* IncrementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15906B024ED6CEB001052EF /* IncrementUITests.swift */; };
+		B15906C024ED701D001052EF /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15906BF24ED701D001052EF /* PrimaryButtonStyle.swift */; };
+		B15906C424ED70F9001052EF /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15906C324ED70F9001052EF /* Color+Extension.swift */; };
+		B15906C924ED7AD3001052EF /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15906C824ED7AD3001052EF /* CreateView.swift */; };
+		B15906CC24ED7B49001052EF /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15906CB24ED7B49001052EF /* DropdownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +39,20 @@
 /* Begin PBXFileReference section */
 		B159069024ED6CE8001052EF /* Increment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Increment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B159069324ED6CE8001052EF /* IncrementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementApp.swift; sourceTree = "<group>"; };
-		B159069524ED6CE8001052EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B159069524ED6CE8001052EF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		B159069724ED6CEA001052EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B159069A24ED6CEA001052EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B159069C24ED6CEA001052EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15906A124ED6CEB001052EF /* IncrementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncrementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15906A524ED6CEB001052EF /* IncrementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementTests.swift; sourceTree = "<group>"; };
 		B15906A724ED6CEB001052EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15906AC24ED6CEB001052EF /* IncrementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncrementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15906B024ED6CEB001052EF /* IncrementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementUITests.swift; sourceTree = "<group>"; };
 		B15906B224ED6CEB001052EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15906BF24ED701D001052EF /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		B15906C324ED70F9001052EF /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		B15906C624ED735B001052EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15906C824ED7AD3001052EF /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		B15906CB24ED7B49001052EF /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,15 @@
 		B159069224ED6CE8001052EF /* Increment */ = {
 			isa = PBXGroup;
 			children = (
-				B159069324ED6CE8001052EF /* IncrementApp.swift */,
-				B159069524ED6CE8001052EF /* ContentView.swift */,
 				B159069724ED6CEA001052EF /* Assets.xcassets */,
-				B159069C24ED6CEA001052EF /* Info.plist */,
+				B15906C624ED735B001052EF /* Info.plist */,
 				B159069924ED6CEA001052EF /* Preview Content */,
+				B159069324ED6CE8001052EF /* IncrementApp.swift */,
+				B159069524ED6CE8001052EF /* LandingView.swift */,
+				B15906C824ED7AD3001052EF /* CreateView.swift */,
+				B15906CA24ED7B26001052EF /* Component */,
+				B15906BE24ED7005001052EF /* ComponentStyle */,
+				B15906C224ED70E8001052EF /* Extensions */,
 			);
 			path = Increment;
 			sourceTree = "<group>";
@@ -128,6 +140,30 @@
 				B15906B224ED6CEB001052EF /* Info.plist */,
 			);
 			path = IncrementUITests;
+			sourceTree = "<group>";
+		};
+		B15906BE24ED7005001052EF /* ComponentStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B15906BF24ED701D001052EF /* PrimaryButtonStyle.swift */,
+			);
+			path = ComponentStyle;
+			sourceTree = "<group>";
+		};
+		B15906C224ED70E8001052EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B15906C324ED70F9001052EF /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B15906CA24ED7B26001052EF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B15906CB24ED7B49001052EF /* DropdownView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B159069624ED6CE8001052EF /* ContentView.swift in Sources */,
+				B15906C024ED701D001052EF /* PrimaryButtonStyle.swift in Sources */,
+				B159069624ED6CE8001052EF /* LandingView.swift in Sources */,
 				B159069424ED6CE8001052EF /* IncrementApp.swift in Sources */,
+				B15906C424ED70F9001052EF /* Color+Extension.swift in Sources */,
+				B15906C924ED7AD3001052EF /* CreateView.swift in Sources */,
+				B15906CC24ED7B49001052EF /* DropdownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

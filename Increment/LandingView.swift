@@ -32,8 +32,9 @@ struct LandingView: View {
                                     .foregroundColor(.white)
                                 Spacer()
                             }
-                        }.padding(.horizontal, 15)
+                        }.padding(15)
                         .buttonStyle(PrimaryButtonStyle())
+                        .padding(.bottom, 15)
                     }
                 }.frame(
                     maxWidth: .infinity,
@@ -47,7 +48,7 @@ struct LandingView: View {
                         .edgesIgnoringSafeArea(.all)
                 )
             }
-        }
+        }.accentColor(.primary)
     }
 }
 

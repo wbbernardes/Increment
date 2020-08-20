@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct PrimaryButtonStyle: ButtonStyle {
+    var fillColor: Color = .darkPrimaryButton
     func makeBody(configuration: Configuration) -> some View {
-        let fillColor: Color = .darkPrimaryButton
         return PrimaryButton(
             configuration: configuration, fillColor: fillColor
         )

@@ -12,16 +12,19 @@ struct DropdownView: View {
         VStack {
             HStack {
                 Text("Exercise")
+                    .font(.system(size: 22, weight: .semibold))
                 Spacer()
-            }
+            }.padding(.vertical, 10)
             Button(action: {}) {
                 HStack {
                     Text("Pushups")
+                        .font(.system(size: 28, weight: .semibold))
                     Spacer()
                     Image(systemName: "arrowtriangle.down.circle")
+                        .font(.system(size: 24, weight: .medium))
                 }
-            }.buttonStyle(PrimaryButtonStyle())
-        }
+            }.buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
+        }.padding(20)
     }
 }
 

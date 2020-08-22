@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B106E7FB24EEBEC900F9A7BF /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106E7FA24EEBEC900F9A7BF /* RemindView.swift */; };
+		B126E6B524F165B8003D7DF4 /* CreateChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B126E6B424F165B8003D7DF4 /* CreateChallengeViewModel.swift */; };
+		B126E6B724F16623003D7DF4 /* DropdownItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B126E6B624F16623003D7DF4 /* DropdownItemProtocol.swift */; };
 		B159069424ED6CE8001052EF /* IncrementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159069324ED6CE8001052EF /* IncrementApp.swift */; };
 		B159069624ED6CE8001052EF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159069524ED6CE8001052EF /* LandingView.swift */; };
 		B159069824ED6CEA001052EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B159069724ED6CEA001052EF /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		B106E7FA24EEBEC900F9A7BF /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		B126E6B424F165B8003D7DF4 /* CreateChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChallengeViewModel.swift; sourceTree = "<group>"; };
+		B126E6B624F16623003D7DF4 /* DropdownItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownItemProtocol.swift; sourceTree = "<group>"; };
 		B159069024ED6CE8001052EF /* Increment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Increment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B159069324ED6CE8001052EF /* IncrementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementApp.swift; sourceTree = "<group>"; };
 		B159069524ED6CE8001052EF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B126E6B324F165A5003D7DF4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B126E6B424F165B8003D7DF4 /* CreateChallengeViewModel.swift */,
+				B126E6B624F16623003D7DF4 /* DropdownItemProtocol.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		B159068724ED6CE8001052EF = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +118,17 @@
 		B159069224ED6CE8001052EF /* Increment */ = {
 			isa = PBXGroup;
 			children = (
-				B159069724ED6CEA001052EF /* Assets.xcassets */,
-				B15906C624ED735B001052EF /* Info.plist */,
-				B159069924ED6CEA001052EF /* Preview Content */,
 				B159069324ED6CE8001052EF /* IncrementApp.swift */,
 				B159069524ED6CE8001052EF /* LandingView.swift */,
 				B15906C824ED7AD3001052EF /* CreateView.swift */,
 				B106E7FA24EEBEC900F9A7BF /* RemindView.swift */,
+				B126E6B324F165A5003D7DF4 /* ViewModels */,
 				B15906CA24ED7B26001052EF /* Component */,
 				B15906BE24ED7005001052EF /* ComponentStyle */,
 				B15906C224ED70E8001052EF /* Extensions */,
+				B159069724ED6CEA001052EF /* Assets.xcassets */,
+				B15906C624ED735B001052EF /* Info.plist */,
+				B159069924ED6CEA001052EF /* Preview Content */,
 			);
 			path = Increment;
 			sourceTree = "<group>";
@@ -301,7 +315,9 @@
 				B15906C024ED701D001052EF /* PrimaryButtonStyle.swift in Sources */,
 				B159069624ED6CE8001052EF /* LandingView.swift in Sources */,
 				B159069424ED6CE8001052EF /* IncrementApp.swift in Sources */,
+				B126E6B724F16623003D7DF4 /* DropdownItemProtocol.swift in Sources */,
 				B15906C424ED70F9001052EF /* Color+Extension.swift in Sources */,
+				B126E6B524F165B8003D7DF4 /* CreateChallengeViewModel.swift in Sources */,
 				B106E7FB24EEBEC900F9A7BF /* RemindView.swift in Sources */,
 				B15906C924ED7AD3001052EF /* CreateView.swift in Sources */,
 				B15906CC24ED7B49001052EF /* DropdownView.swift in Sources */,
